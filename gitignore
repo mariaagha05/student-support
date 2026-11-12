@@ -1,0 +1,14 @@
+# Secrets kabhi upload nahi karne
+.streamlit/secrets.toml
+*.env
+
+# Bari files jo repository me nahi chahiye
+images.npz
+*.zip
+!nltk_data/sentiment/vader_lexicon.zip
+
+# Temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
